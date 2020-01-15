@@ -4697,7 +4697,7 @@ MonoJitStats mono_jit_stats = {0};
  * MONO_NO_SANITIZE_THREAD tells Clang's ThreadSanitizer to hide all reports of these (known) races.
  */
 MONO_NO_SANITIZE_THREAD
-static void
+void
 print_jit_stats (void)
 {
 	if (mono_jit_stats.enabled) {
